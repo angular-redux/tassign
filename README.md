@@ -1,6 +1,11 @@
+
 # tassign
 
 This is a simple wrapper for fixed-arity, subset-typed, non-mutating `Object.assign`.
+
+[![CircleCI](https://img.shields.io/circleci/project/angular-redux/tassign/master.svg?maxAge=2592000)](https://circleci.com/gh/angular-redux/tassign/tree/master)
+[![npm version](https://img.shields.io/npm/v/tassign.svg)](https://www.npmjs.com/package/tassign)
+[![npm downloads](https://img.shields.io/npm/dt/tassign.svg)](https://www.npmjs.com/package/tassign)
 
 ## Why?
 
