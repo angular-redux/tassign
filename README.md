@@ -56,7 +56,7 @@ can be added onto the assignee.  This is reasonable in the general case for `Obj
 I want in a reducer.
 
 In a reducer, I want `assign(t:T, u:U)` to enforce a subset rule: the return value should be an instance of `T`, and only
-subsets of `T`'s type are legal values for `U`. In short I want to make sure you can only assign members of U to the
+subsets of `T` are legal values for `U`. In short I want to make sure you can only assign members of `T` to the
 object returned by the reducer.
 
 So, here's a utility that handles the typings the way I want in a reducer:
